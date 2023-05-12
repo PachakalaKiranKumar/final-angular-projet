@@ -1,0 +1,45 @@
+.menu-bar {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+  }
+  
+  .menu-bar li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .menu-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .menu-bar a:hover {
+    background-color: #1976D2;
+  }
+  
+  .menu-bar select {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #2196F3;
+  }
+  .option
+  {
+    margin-left: 240px;
+  }
+  .title{
+    font-size: 25px;
+  }
+  .log{
+    font-size:20px
+  }

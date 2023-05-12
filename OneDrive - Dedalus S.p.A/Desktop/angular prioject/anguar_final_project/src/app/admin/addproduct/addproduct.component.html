@@ -1,0 +1,48 @@
+
+<div id="form">
+    <h2 class="producttitle">Enter Product Details</h2>
+  
+    <div style="overflow: hidden;">
+      <div class="formbox">
+        <span class="name">Name:</span>
+        <input class="input" type="text" [(ngModel)]="name" placeholder="Enter the name of the product">
+      </div>
+  
+      <div class="formbox">
+        <span class="name">Type:</span>
+        <select class="input" [(ngModel)]="type">
+          <option value="">Select a product type</option>
+          <option value="Type 1">Fruits</option>
+          <option value="Type 2">Vegetables</option>
+          <option value="Type 3">Salads</option>
+          <option value="Type 4">Juices</option>
+        </select>
+      </div>
+  
+      <div class="formbox">
+        <span class="name">Image:</span>
+        <input class="input" type="text" [(ngModel)]="image" placeholder="Enter the image name of the product">
+      </div>
+  
+      <div class="formbox">
+        <span class="name">Description:</span>
+        <input class="input" type="text" [(ngModel)]="description" placeholder="Enter the description" style="height: 80px;">
+      </div>
+  
+      <div class="formbox">
+        <span class="name">Quantity:</span>
+        <input class="input" type="number" [(ngModel)]="quantity" placeholder="Enter the quantity of the product">
+      </div>
+    </div>
+  
+    <div class="alert alert-info" *ngIf="errors.length > 0">
+      <ul>
+        <li *ngFor="let x of errors">{{x}}</li>
+      </ul>
+    </div>
+  
+    <div style="margin-left: 140px;">
+      <button class="button1" (click)="submit()">Add Product</button>
+    </div>
+  </div>
+  

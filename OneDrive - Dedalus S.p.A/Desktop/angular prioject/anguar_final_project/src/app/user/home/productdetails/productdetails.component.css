@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center; /* vertically center the items */
+}
+
+.container img {
+  width: 350px; /* adjust the image width as needed */
+  height: 350px;
+  border-radius: 15px;
+  margin-right: 120px; /* add some space between the image and the table */
+}
+
+#description-block {
+  flex: 1; /* stretch the block to fill the remaining space */
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 15px;
+ 
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding-left: 10px;
+  
+}
+h2{
+  margin-top: 90px;
+  margin-left: 140px;
+  text-decoration: underline;
+}
+th {
+  background-color: #f2f2f2;
+}

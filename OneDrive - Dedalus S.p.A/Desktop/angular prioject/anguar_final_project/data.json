@@ -1,0 +1,590 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb2bq",
+      "username": "kiran",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "email": "jackson@gmail.com",
+      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0SGYW",
+      "username": "jackson",
+      "type": "admin",
+      "lastname": "Mike",
+      "id": 6
+    },
+    {
+      "email": "naresh@gmail.com",
+      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7YtEO",
+      "username": "naresh",
+      "type": "user",
+      "lastname": "Mike",
+      "id": 7
+    },
+    {
+      "email": "harish1@gmail.com",
+      "password": "$2a$10$svGznVNLN48xPFxadLPhLOxfYzOIpTgi8wahFfuptRKoXlAAZWsqa",
+      "username": "harish1",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "kiranp5477@gmail.com",
+      "password": "$2a$10$5.epKy4a4ZwT2uYZQS.6gOk3ppIGUrNUSBMHoT6yd3jjWPGRyXNSe",
+      "username": "kiran",
+      "type": "user",
+      "id": 9
+    },
+    {
+      "email": "lucky@gmail.com",
+      "password": "$2a$10$puy7cnKgD7vH8Mn5F1VOduxavL71UUFKceUdoRaWP0qdxwEbP6IIK",
+      "username": "lucky",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "kiranp54577@gmail.com",
+      "password": "$2a$10$xO4SRRmkURUWU5nYzMF4aOrYieKXeaSS.dBWYR5Ua9H0z0UNSrjf6",
+      "username": "kirankumar",
+      "type": "user",
+      "id": 11
+    },
+    {
+      "email": "kirankumarvcp@gmail.com",
+      "password": "$2a$10$g/IEnE1LET/d7KfBdSifROSmm994vuQWNC9hVFPis9dydjDj0nnkS",
+      "username": "yadav",
+      "type": "user",
+      "id": 12
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$CfCX67kt2DRmJ7Y1sXHYcuSXP9Q.s7pxeR5I.5RtfRh6e9QKWXe3y",
+      "username": "admin123",
+      "type": "admin",
+      "id": 13
+    },
+    {
+      "email": "admin888@gmail.com",
+      "password": "$2a$10$t0pFXA6ju.JC7RgAcwSRtu0qGBCBf9bO0XqQqNZC3rIrgzkTcFPGO",
+      "username": "admin",
+      "type": "admin",
+      "id": 14
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Taboule Salad",
+      "type": "Salads",
+      "image": "Taboule_Salad.jpg",
+      "Measure": "3 1/2 oz.",
+      "Calories": 265,
+      "Protein": 27,
+      "Fat": 15,
+      "Sat.Fat": 2,
+      "Fiber": 1,
+      "Carbs": 10
+    },
+    {
+      "id": 2,
+      "name": "Greek Salad",
+      "type": "Salads",
+      "image": "Greek_Salad.jpg",
+      "Calories": "335g",
+      "Protein": "10g",
+      "Fat": "10g",
+      "Sat.Fat": "9g",
+      "Fiber": "0g",
+      "Carbs": "42g"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Caesar Salad",
+      "type": "Salads",
+      "image": "Chicken_Caesar_Salad.jpg",
+      "Measure": "1/2 cup",
+      "Calories": "425g",
+      "Protein": "13g",
+      "Fat": "38g",
+      "Sat.Fat": "28g",
+      "Fiber": "1.8g",
+      "Carbs": "13g"
+    },
+    {
+      "id": 4,
+      "name": "Chickpea Salad",
+      "type": "Salads",
+      "image": "Chickpea_Salad.jpg",
+      "Measure": "1/2 cup",
+      "Calories": "439g",
+      "Protein": "13g",
+      "Fat": "40g",
+      "Sat.Fat": "31g",
+      "Fiber": "1.8g",
+      "Carbs": "13g"
+    },
+    {
+      "id": 5,
+      "name": "Pasta Primavera",
+      "type": "Salads",
+      "image": "Pasta_Primavera.jpg",
+      "Measure": "1/2 cup",
+      "Calories": "457g",
+      "Protein": "10g",
+      "Fat": "47g",
+      "Sat.Fat": "31g",
+      "Fiber": "2g",
+      "Carbs": "7g"
+    },
+    {
+      "id": 6,
+      "name": "Tuna Salad",
+      "type": "Salads",
+      "image": "Tuna_Salad.jpg",
+      "Measure": "1/2 cup",
+      "Calories": "392g",
+      "Protein": "12g",
+      "Fat": "32g",
+      "Sat.Fat": "28g",
+      "Fiber": "0.9g",
+      "Carbs": "20g"
+    },
+    {
+      "id": 7,
+      "name": "Cherry Tomatoes",
+      "type": "Fruits",
+      "image": "Cherry_Tomatoes.jpg",
+      "Measure": "1/2 cup",
+      "Calories": "274g",
+      "Protein": "1g",
+      "Fat": "20g",
+      "Sat.Fat": "19g",
+      "Fiber": "2g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 8,
+      "name": "Red Cherries",
+      "type": "Fruits",
+      "image": "Red_Cherry.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 9,
+      "name": "Banana",
+      "type": "Fruits",
+      "image": "Banana.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 10,
+      "name": "Watermelon",
+      "type": "Fruits",
+      "image": "Watermelon.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 11,
+      "name": "Red Grapes",
+      "type": "Fruits",
+      "image": "RedGrapes.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 12,
+      "name": "Kiwi",
+      "type": "Fruits",
+      "image": "Kiwi.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 13,
+      "name": "Green Coconut",
+      "type": "Fruits",
+      "image": "GreenCoconut.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 14,
+      "name": "Pineapple",
+      "type": "Fruits",
+      "image": "Pineapple.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 15,
+      "name": "Orange Juice",
+      "type": "Juices",
+      "image": "Orange_Juice.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 16,
+      "name": "Grapes Juice",
+      "type": "Juices",
+      "image": "Grape_Juice.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 17,
+      "name": "Apple Juice",
+      "type": "Juices",
+      "image": "Apple_Juice.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 18,
+      "name": "Pineapple Juice",
+      "type": "Juices",
+      "image": "Pineapple_Juice.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 19,
+      "name": "Mango Juice",
+      "type": "Juices",
+      "image": "Mango_Juice.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 20,
+      "name": "Strawberry Juice",
+      "type": "Juices",
+      "image": "Strawberry_Juice.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 21,
+      "name": "Bell pepper",
+      "type": "Vegetables",
+      "image": "Bell_pepper.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 22,
+      "name": "Red Onion",
+      "type": "Vegetables",
+      "image": "Red_Onion.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 23,
+      "name": "Potato",
+      "type": "Vegetables",
+      "image": "Potato.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 24,
+      "name": "Squash",
+      "type": "Vegetables",
+      "image": "Squash.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 25,
+      "name": "SweetPotato",
+      "type": "Vegetables",
+      "image": "SweetPotato.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 26,
+      "name": "Cauliflower",
+      "type": "Vegetables",
+      "image": "Cauliflower.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 27,
+      "name": "Cabbage",
+      "type": "Vegetables",
+      "image": "Cabbage.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    },
+    {
+      "id": 28,
+      "name": "banana",
+      "type": "fruit",
+      "price": 39,
+      "image": "banana.jpg",
+      "Measure": "1 cup",
+      "Calories": "100g",
+      "Protein": "1g",
+      "Fat": "t",
+      "Sat.Fat": "0g",
+      "Fiber": "0.7g",
+      "Carbs": "26g"
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "name": "Mediterranean diet",
+      "image": "Mediterranean_diet.jpg",
+      "description": "The Mediterranean diet is typically high in fruits, vegetables, whole grains, legumes, and nuts and  Mediterranean diet contains around 1500-1800 calories per day for men and 1200-1500 calories per day for women",
+      "breakFast": "Omelette with mushrooms, bell peppers, and onions",
+      "lunch": "Grilled chicken or fish with a side of roasted vegetables, such as eggplant, zucchini, and bell peppers",
+      "snacks": "Nuts, such as almonds, walnuts, or pistachios",
+      "dinner": "Grilled or roasted vegetables, such as eggplant, zucchini, bell peppers, and onions, with a side of whole grain bread or pita"
+    },
+    {
+      "id": 2,
+      "name": "Low-carb diet",
+      "image": "Low-carb_diet.jpg",
+      "description": "The low-carb diet is a way of eating that restricts the intake of carbohydrates, such as those found in bread, pasta, rice, and sugary foods around it contains 1500-1800 calories per day for men and 1200-1500 calories per day for women",
+      "breakFast": "Low-carb smoothie made with unsweetened almond milk, protein powder, and a handful of spinach",
+      "lunch": "Tuna or chicken salad with avocado mayo, celery, and lettuce leaves",
+      "snacks": "Hard-boiled eggs,Mixed nuts or seeds,Low-carb protein bars or shakes",
+      "dinner": "Baked chicken or fish with a side of roasted vegetables and mashed cauliflower"
+    },
+    {
+      "id": 3,
+      "name": "Ketogenic diet",
+      "image": "Ketogenic_diet.jpg",
+      "description": "per-day:1500-2500 descriptions",
+      "breakFast": "Keto pancakes made with almond flour and served with sugar-free syrup and berries",
+      "lunch": "Zucchini noodles with alfredo sauce and sautéed mushrooms and Broccoli and cheddar soup with a side salad",
+      "snacks": "Hard-boiled eggs,Celery sticks with cream cheese or almond butter,ceese sticks or cubes,Keto protein bars or shakes,Mixed nuts or seeds",
+      "dinner": "Keto pizza made with a cauliflower crust and topped with tomato sauce, mozzarella cheese, and vegetables of your choice "
+    },
+    {
+      "id": 4,
+      "name": "Vegetarian diet",
+      "image": "Vegetarian_diet.jpg",
+      "description": "per-day:1500-2500 descriptions",
+      "breakFast": "Overnight oats made with rolled oats, chia seeds, almond milk, and fruit",
+      "lunch": "Grilled vegetable salad with mixed greens, avocado, and a vinaigrette dressing",
+      "snacks": "Hummus and veggies like carrots, cucumber,and bell pepper,Fresh fruit like apples, oranges, and grapes",
+      "dinner": "Vegetable stir-fry with tofu or tempeh, broccoli, mushrooms, and peppers served over brown rice or quinoa"
+    },
+    {
+      "id": 5,
+      "name": "Vegan diet",
+      "image": "Vegan_diet.jpg",
+      "description": "per-day:1500-2500 descriptions"
+    },
+    {
+      "id": 6,
+      "name": "DASH diet",
+      "image": "DASH_diet.jpg",
+      "description": "per-day:1500-2500 descriptions"
+    },
+    {
+      "id": 7,
+      "name": "Flexitarian diet",
+      "image": "Flexitarian_diet.jpg",
+      "description": "per-day:1500-2500 descriptions"
+    },
+    {
+      "id": 8,
+      "name": "Atkins diet",
+      "image": "Atkins_diet.jpg",
+      "description": "per-day:1500-2500 descriptions"
+    }
+  ],
+  "forum": [
+    {
+      "id": 1,
+      "question": "What are some healthy snack options for someone who is always on-the-go?",
+      "responses": [
+        "Nuts, seeds, fruit, cut vegetables, hummus, and whole-grain crackers are all healthy snack options for someone who is always on-the-go.",
+        "it s good",
+        null
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What are some essential vitamins and minerals that a vegan diet may be lacking in?",
+      "responses": [
+        "Vegans may lack vitamin B12, iron, calcium, and omega-3 fatty acids.",
+        "you are in right way"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What are some easy and delicious meal prep ideas for someone looking to eat healthier?",
+      "responses": [
+        "Some easy and delicious meal prep ideas include overnight oats, veggie-packed stir-fries, and roasted vegetables with quinoa or brown rice."
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How can I increase my daily protein intake without consuming meat?",
+      "responses": [
+        "Plant-based protein sources such as beans, lentils, nuts, seeds, tofu, and tempeh can help increase daily protein intake without consuming meat.",
+        " yes almost correct what you mention",
+        "little bit improve"
+      ]
+    },
+    {
+      "id": 5,
+      "responses": []
+    },
+    {
+      "id": 6,
+      "question": "how much nutrition  per day you have taken?",
+      "responses": [
+        "500 grams you have to take"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "what is brakfast ate",
+      "responses": []
+    },
+    {
+      "id": 8,
+      "responses": []
+    },
+    {
+      "id": 9,
+      "responses": []
+    }
+  ]
+}

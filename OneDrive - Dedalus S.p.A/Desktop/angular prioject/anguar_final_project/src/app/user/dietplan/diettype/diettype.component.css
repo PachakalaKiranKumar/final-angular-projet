@@ -1,0 +1,36 @@
+.b1{
+    float: left;
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px gray;
+    margin: 30px;
+    border: 2px solid rgb(23, 5, 5);
+    border-radius: 5px;  
+  
+}   
+
+
+.b2{
+height: 80%;
+width: 100%;
+}
+.b2 img{
+    height: 100%;
+    width: 100%; 
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+
+}
+.b3{
+
+    height: 20%;
+    text-align: center;    
+    background-color: rgb(65, 174, 205);      
+    color: rgb(31, 27, 27);    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    font-size: 20px;    
+    padding-top: 15px;    
+    box-sizing: border-box;   
+}

@@ -1,0 +1,25 @@
+mat-form-field {
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  .b1 {
+    margin-top: 20px;
+  }
+  
+  mat-card {
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-card-content {
+    font-size: 16px;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .response-card {
+    margin-top: 20px;
+  }
+  

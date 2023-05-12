@@ -1,0 +1,55 @@
+
+#login-card, #register-card {
+  width: 400px;
+  margin: 100px auto;
+  background-color:#fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#log-table, #reg-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+#log-table th, #reg-table th {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#log-table td, #reg-table td {
+  padding: 5px;
+}
+
+#log-table input[type=text], #log-table input[type=password], #reg-table input[type=text], #reg-table input[type=password] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#log-table button, #reg-table button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#log-table button:hover, #reg-table button:hover {
+  background-color: #3e8e41;
+}
+
+.errors {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
